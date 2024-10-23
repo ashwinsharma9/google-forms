@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Forms using javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="heading">Google Forms</h1>
+
+        <form action="http://localhost:3000/submit-form" method="POST" class="myform">
+
+            <h4 class="hhh">First_Name</h4>
+            <Input required type="text" maxlength="20" class="f_Name" name="firstName"></Input>
+
+            <h4>Last_Name</h4>
+            <Input required type="text" maxlength="20" class="l_Name" name="lastName"></Input>
+
+            <h4>Email</h4>
+            <Input required type="email" maxlength="25" class="e_mail" name="email"></Input>
+
+            <h4>Mobile_Number</h4>
+            <Input required type="number" class="m_Number" name="mobileNumber"></Input>
+
+            <br>
+
+            <button type="submit" class="submitButton">Submit</button>
+            
+
+        </form> 
+
+        <script src="script.js"></script>
+
+</body>
+</html>
